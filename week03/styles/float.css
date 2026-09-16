@@ -8,6 +8,7 @@ main {
 
 p {
     text-align: justify;
+    clear: right;
 }
 
 .col1 img {
@@ -22,5 +23,5 @@ footer {
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
 
-    /* clear: both; */
+    clear: both;
 }
