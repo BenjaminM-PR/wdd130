@@ -1,9 +1,15 @@
+:root {
+    --main-color: darkblue;
+    --darkest: black;
+    --brightest: white;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: var(--brightest);
     display: block;
     padding: 20px;
 }
@@ -12,12 +18,12 @@ main {
     max-width: 840px;
 }
 h1 {
-    color: darkblue;
+    color: var(--main-color);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--darkest);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -41,7 +47,7 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border-top: 2px dotted #000;
+    border-top: 2px dotted var(--darkest);
     text-align: center;
 }
 
