@@ -21,23 +21,36 @@ nav a {
     padding: 20px;
 }
 
-main {
-    max-width: 840px;
-}
-h1 {
-    color: var(--main-color);
-}
-main img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid var(--darkest);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
 }
+
 p {
     padding: 0;
 }
+
+main {
+    max-width: 840px;
+}
+
+
+main img {
+    width: 120px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+
+h1 {
+    color: var(--main-color);
+}
+
+
 
 aside {
     width: 20rem;
@@ -68,3 +81,4 @@ footer {
     background-color: rgba(45, 224, 255, 0.13);
     color: var(--darkest);
 }
+
