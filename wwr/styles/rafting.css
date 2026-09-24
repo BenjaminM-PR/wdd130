@@ -2,7 +2,7 @@
     --primary-color: #33aedf;
     --secondary-color: #c42e2e;
     --accent1-color: #345063;
-    --accent2-color: #ada23f;
+    --accent2-color: #edfd11;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -111,7 +111,7 @@ h1 {
 
 .history {
     display: grid;
-    grid-template: 1fr 1fr fr / 1fr 1fr;
+    grid-template: 40px 1fr/ 1fr 1fr 1fr;
 }
 
 .history h2 {
@@ -137,11 +137,44 @@ h2 {
     color: var(--accent2-color);
 }
 
+.adventure {
+    display: grid;
+    grid-row: 40px / 1fr;
+    grid-column: repeat(5, 1fr);
+    justify-content: space-evenly;
+}
+
+.adventure h2 {
+    grid-column: span 5;
+}
+
+.adventure figure{
+    grid-row: span 5;
+    display: flex;
+    flex-flow: column;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure img {
+    height: 100px;
+
+}
+
+
 section p {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: end;
+}
+
 
 .socialmedia img {
     width: 30px;
