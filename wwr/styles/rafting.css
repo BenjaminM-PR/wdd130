@@ -139,8 +139,8 @@ h2 {
 
 .adventure {
     display: grid;
-    grid-row: 40px / 1fr;
-    grid-column: repeat(5, 1fr);
+    grid-row: 1fr / 1fr;
+    grid-column: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
 }
 
