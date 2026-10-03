@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Rapids! </title>
+    <meta name="description" content="This website will contain information for the user to contact the company through different channels to send">
+    <meta name="author" content="Benjamin Paiva">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/z-therapidssplash.png" alt="A whirlpool with The Rapids logo in red text">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="companyinfo">
+            <h2>The Rapids!</h2>
+            <p>Ruta de la Madera kilometro 44,</p>
+            <p>Santa Juana, Bío Bío, Chile</p>
+            <p>+569 1234 5678</p>
+            <p>@TheRapids!</p>
+        </section>
+
+
+        <div class="message">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25443.465123754948!2d-72.96130253944504!3d-37.142399086928755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1790994003030!5m2!1ses-419!2scl" width="600" height="450";" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <form>
+                <fieldset>
+                    <div class="contact-data form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Benjamin">
+
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" placeholder="benjaminpaiva@gmail.com">
+
+                        <p>Message<br> Purpose </p>
+                        <div class="radio">
+                            <input type="radio" id="inquiry" name="purpose">
+                            <label for="inquiry">General Inquiry</label>
+                            <input type="radio" id="reservation" name="purpose">
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="suggestion" name="purpose">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form form2">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+                        <div class="checkbox">
+                            <input type="checkbox" id="subscription" name="subscription">
+                            <label for="subscription">Please Subscribe me to the monthyly newsletter</label>
+                        </div>
+                        <button type="submit">Get in Touch!</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <section class="workers">
+            <h2>We Are Here To Serve You</h2>
+            <figure>
+                <img src="images/man-smile.webp" alt="people doing rafting">
+                <figcaption>trips management</figcaption>
+            </figure>
+            <figure>
+                <img src="images/woman-smile.webp" alt="people doing rafting">
+                <figcaption>receptionist</figcaption>
+            </figure>
+            <figure>
+                <img src="images/other-man-smile.webp" alt="people doing rafting">
+                <figcaption>trips captain</figcaption>
+            </figure>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <p>©2026 The Rapids! | Benjamin Paiva</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://x.com/home">
+                <img src="images/twitter.png" alt="X or Twitter icon">
+            </a>
+            <a href="https://www.tiktok.com">
+                <img src="images/tiktok.png" alt="TikTok icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
