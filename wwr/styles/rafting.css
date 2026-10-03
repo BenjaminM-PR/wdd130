@@ -30,7 +30,7 @@ header {
 .navigation a {
     text-decoration: none;
     padding: 20px;
-    color: white;    
+    color: #ffffff;    
 }
 
 .navigation a:hover {
@@ -39,7 +39,7 @@ header {
 
 .navigation li {
     flex: 1 1 auto;
-    border: 1px solid black;
+    border: 1px solid #000000;
     background-color: var(--secondary-color);
 }
 
@@ -90,7 +90,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffffff;
 }
 
 .hero article img {
@@ -99,12 +99,12 @@ h1 {
     height: auto;
     margin: 10px;
     border: 2px solid #583b0e;
-    box-shadow: 0 0 3px white;
+    box-shadow: 0 0 3px #ffffff;
 }
 .hero article {
     position: absolute;
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffffff;
     bottom: 15px;
     opacity: 0.9;
 }
@@ -185,16 +185,23 @@ footer {
     text-align: center;
 }
 
-.companyinfo h2 {
+.companyinfo h1 {
     font-size: 2rem;
     padding: 2px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    position: relative;
+    display: block;;
+    margin: 0 0 25px;
+    opacity: 1;
 }
 
 .companyinfo p {
     padding: 2px;
     margin: 0;
-    color: #000;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .message {
@@ -225,7 +232,6 @@ fieldset {
     text-align: center;
     gap: 10px;
     padding: 10px;
-    text-align: center;
 }
 
 .contact-data {
@@ -268,6 +274,6 @@ button {
 
 button:hover {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #ffffff;
 }
 
