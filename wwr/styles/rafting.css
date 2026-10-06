@@ -51,7 +51,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -277,3 +277,16 @@ button:hover {
     color: #ffffff;
 }
 
+.home img {
+    position: absolute;
+    width: 100%;
+    
+}
+
+.newsletterinfo {
+    position: relative;
+    background-color: var(--accent1-color);
+    border: 2px solid var(--accent2-color);
+    padding: 50px;
+    opacity: 0.8;
+}
