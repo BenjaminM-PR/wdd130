@@ -335,7 +335,8 @@ button:hover {
     padding: 5px;
 }
 
-.action a {
+.trip-container a, 
+.home-hero a {
 
     display: block;
     padding: 25px;
@@ -349,12 +350,14 @@ button:hover {
 
 }
 
-.home-action a {
+
+.home-hero a {
     position: absolute;
     top: 75%;
     left: 20px;
 }
-.action a:hover {
+.trip-container a:hover,
+.home-hero a:hover {
 
     background-color: #523c0e;
     color: #dfb65e;
