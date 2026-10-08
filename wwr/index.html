@@ -25,22 +25,44 @@
 
     <main>
         <div class="home">
-            <img  src="images/rafting-home.webp" alt="people doing rafting">
-            <form class="newsletterinfo">
-                <fieldset>
-                    <legend>Stay tune to our newsletters!</legend>
-                    <div>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Benjamin Paiva" required>
+            <section class="home-hero">
+                <img  src="images/rafting-home.webp" alt="people doing rafting">
+                <h1>Welcome to The Rapids!</h1>
+            
+                <form class="newsletterinfo">
+                    <fieldset>
+                        <legend>Stay tune to our newsletters!</legend>
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="benjaminmpaivarocco@gmail.com" required>
+                        <div class="home-form">
 
-                        <button type="submit">Sign me up!</button>
-                    </div>
+                            <label class="labelname" for="name">Name</label>
+                            <input class="inputname" type="text" id="name" name="name" placeholder="Benjamin Paiva" required>
+                        </div>
+                        <div class="home-form">
+                            <label class="labelemail" for="email">Email</label>
+                            <input class="inputemail" type="email" id="email" name="email" placeholder="benjaminmpaivarocco@gmail.com" required>
+                        </div>
+                        
+                        <button class="home-form" type="submit">Keep me notified!</button>
+                    </fieldset>
+                </form>
+                <element class="action home-action">
+                    <a href="trips.html">Check our trips!</a>
+                </element>
+            </section>
 
-                </fieldset>
-            </form>
+
+            <div class="grid">
+                <div>
+                    <img src="images/prepared.webp" alt="people prepared to go rafting">
+                    <img src="images/equipment.webp" alt="equipment">
+
+                    <p>purpose Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vero at incidunt! Saepe doloribus, aliquid dignissimos laudantium officiis incidunt rerum sapiente ea. Nemo, explicabo perferendis. Fugit dolore natus iste veniam.</p>
+                    <p>our offerings Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quam consectetur praesentium hic quos velit repellendus ipsam, eaque temporibus iusto quaerat consequatur error reiciendis sed at voluptates dolor explicabo ipsum!</p>
+                </div>
+
+            </div>
+
         </div>
     </main>
 
